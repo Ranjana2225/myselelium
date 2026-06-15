@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                  branch:'master',
-                git 'https://github.com/Ranjana2225/myselelium.git'
+                url:'https://github.com/Ranjana2225/myselelium.git'
             }
         }
 
