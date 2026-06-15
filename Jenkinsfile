@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                 branch:'master',
+                 git branch:'master',
                 url:'https://github.com/Ranjana2225/myselelium.git'
             }
         }
